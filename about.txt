@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Arbutus Slab
-- Font Author: Copyright (c) 2012 by Sorkin Type Co.. All rights reserved.
-- Font Source: http://fonts.gstatic.com/s/arbutusslab/v9/oY1Z8e7OuLXkJGbXtr5ba7ZVa68dJlaFAQ.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
