@@ -65,7 +65,7 @@ header{
     text-shadow: .4rem .4rem 4px rgba(0,0,0, .4);
     margin-bottom: 2rem;
     opacity: 0;
-    animation: moveBanner 1s  forwards;
+    animation: moveBanner 1s 0.5s forwards;
 }
 
 .banner p{
@@ -74,7 +74,9 @@ header{
     font-size: 2rem;
     text-shadow: .2rem .2rem rgba(0,0,0, .4);
     margin-bottom: 2rem; 
-    animation: moveBanner 1s  forwards;
+    opacity: 0;
+
+    animation: moveBanner 1s 0.7s forwards;
 
 }
 
@@ -88,9 +90,10 @@ header{
     background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1rem 3rem;
     border: none;
+    opacity: 0;
     border-radius: 5px;
     cursor: pointer;
-    animation: moveBanner 1s  forwards;
+    animation: moveBanner 1s 0.9s forwards;
 
 }
 
