@@ -27,7 +27,17 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    animation: zoom 15s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .banner{
