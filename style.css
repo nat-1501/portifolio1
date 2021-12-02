@@ -10,6 +10,12 @@
     text-decoration:none;
 }
 
+:root{
+    --font-primary:"Josefin Sans" , serif;
+    --font-secundary:"Mulish", serif;
+    --font-action: "OpenSans", serif;
+}
+
 .hamburguer{
     width: 2rem;
     height: 2rem;
@@ -88,10 +94,21 @@ header{
     right: 0;
 }
 
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-item{
+    text-align: center;
+}
+
 .banner h1{
     color: #ffffff;
     font-size: 3.5rem;
-    font-family: "Josefin Sans" , serif;
+    font-family: var(--font-primary);
     font-weight: 400;
     text-shadow: .4rem .4rem 4px rgba(0,0,0, .4);
     margin-bottom: 2rem;
@@ -100,7 +117,7 @@ header{
 }
 
 .banner p{
-    font-family: "Mulish", serif;
+    font-family: var(--font-secundary);
     color: #fff;
     font-size: 2rem;
     text-shadow: .2rem .2rem rgba(0,0,0, .4);
@@ -112,7 +129,7 @@ header{
 }
 
 .banner button{
-    font-family: "OpenSans", serif;
+    font-family: var(--font-action);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .1rem;
