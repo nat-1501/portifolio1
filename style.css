@@ -6,6 +6,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration:none;
 }
 
 .hamburguer{
@@ -75,6 +77,15 @@ header{
         opacity: 1;
     }
     
+}
+
+.sidebar{
+    width:20rem; 
+    height:100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .banner h1{
