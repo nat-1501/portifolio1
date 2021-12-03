@@ -103,6 +103,17 @@ header{
 
 .menu-item{
     text-align: center;
+    margin-bottom: .5rem;
+}
+
+.menu-link{
+    font-family: var(--font-action);
+    font-size: 2rem;
+    color: #555;
+    transition: color 1s;
+}
+.menu-link:hover{
+    color: #6a3093;
 }
 
 .banner h1{
