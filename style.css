@@ -125,6 +125,14 @@ header{
     justify-content: space-evenly;
 }
 
+.social-media i{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .banner h1{
     color: #ffffff;
     font-size: 3.5rem;
