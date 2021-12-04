@@ -113,7 +113,16 @@ header{
     transition: color 1s;
 }
 .menu-link:hover{
-    color: #6a3093;
+    color: #89216B;
+}
+
+.social-media{
+    background-color: #DA4453;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .banner h1{
