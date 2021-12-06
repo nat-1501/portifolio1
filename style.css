@@ -117,7 +117,7 @@ header{
 }
 
 .social-media{
-    background-color: #DA4453;
+    background-color: #d544da;
     position: absolute;
     bottom: 2rem;
     width: 100%;
@@ -126,11 +126,15 @@ header{
 }
 
 .social-media i{
+    color: rgba(255,255,255, 0.8);
     font-size: 1.5rem;
+    width: 7.5rem;
+    height: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-radius: 50%;
+    transition: background-color 0.1s;
 }
 
 .banner h1{
