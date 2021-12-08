@@ -29,6 +29,10 @@
     cursor: pointer;
 }
 
+.show-menu .hamburguer{
+    right: 16rem;
+}
+
 .line{
     width: 100%;
     background-color: #fff;
@@ -91,8 +95,14 @@ header{
     background-color: #fff;
     position: fixed;
     top: 0;
+    right: -20rem;
+    transition: all 1s;
+}
+
+.show-menu .sidebar{
     right: 0;
 }
+
 
 .menu{
     position: absolute;
