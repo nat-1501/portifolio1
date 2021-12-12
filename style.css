@@ -233,3 +233,8 @@ header{
     opacity: 0.8;
 }
 
+.conhecimentos{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
