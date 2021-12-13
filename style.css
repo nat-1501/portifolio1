@@ -290,4 +290,25 @@ header{
 
 }
 
+.conhecimento-header{
+    display: flex;
+    align-items: center;
+    color: #4b4b4b;
+}
+
+.conhecimento-header i{
+    font-size: 2.5rem;
+
+}
+
+.conhecimento-header h3{
+    font-family: var(--font-secundary);
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.conhecimentos-text{
+    font-family:var(--font-secundary);
+    margin-top: 1rem;
+}
 
