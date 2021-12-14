@@ -139,6 +139,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    background-color: #f5f5f5;
 }
 
 .show-menu .sidebar{
@@ -151,6 +152,7 @@ header{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .menu-item{
@@ -267,13 +269,10 @@ header{
 }
 
 .conhecimento:nth-child(6){
-    grid-column: 11 / 14;
+    grid-column: 12 / 14;
     grid-row: 5 / -1;
 }
 
-.sessao-conhecimentos{
-    background-color: #f5f5f5;
-}
 .sessao-header{
     display: flex;
     align-items: center;
@@ -312,3 +311,14 @@ header{
     margin-top: 1rem;
 }
 
+.conhecimentos-img-wrapper{
+    grid-column: 6 / 11;
+    grid-row: 2 / 6;
+    width: 100%;
+    
+}
+
+.conhecimentos-img-wrapper img{
+    object-fit: cover;
+    width: 115%;
+}
