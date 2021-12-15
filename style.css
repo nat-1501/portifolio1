@@ -140,6 +140,7 @@ header{
     right: -20rem;
     transition: all 1s;
     background-color: #f5f5f5;
+    z-index: 99;
 }
 
 .show-menu .sidebar{
