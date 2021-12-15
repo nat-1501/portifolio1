@@ -354,6 +354,9 @@ header{
     position: absolute;
     bottom: 0;
     padding: 2rem;
+    opacity: 6;
+    transition: all .3s;
+  
     
 }
 
@@ -382,24 +385,27 @@ header{
 }
 
 .card-info button{
+   
     width: 8rem;
     height: 2.5;
     background: #DA4453;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--font-action);
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     border-radius: 1.5rem;
     border: none;
     cursor: pointer;
     letter-spacing: .1rem;
     border-radius: 5px;
-    
-    
-
 }
 
+.card:hover .card-info{
+    bottom: 1.5rem;
+    visibility: visible;
+
+}
 .sessao-projetos{
     background-color: #eee;
 }
