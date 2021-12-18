@@ -533,3 +533,19 @@ footer{
     justify-content: space-between;
 }
 
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+
+}
+
+.social-list ul{
+    display: flex;
+}
