@@ -310,18 +310,28 @@ header{
 .conhecimentos-text{
     font-family:var(--font-secundary);
     margin-top: 1rem;
+
+}
+
+.conhecimento p{
+    color: black;
+    font-family: var(--font-primary);
+    align-items: left;
+    justify-content:left;
+
+
 }
 
 .conhecimentos-img-wrapper{
-    grid-column: 6 / 11;
-    grid-row: 2 / 6;
+    grid-column: 7 / 11;
+    grid-row: 3 / 6;
     width: 100%;
     
 }
 
 .conhecimentos-img-wrapper img{
     object-fit: cover;
-    width: 115%;
+    width: 95%;
 }
 
 .projetos{
