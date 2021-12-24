@@ -16,6 +16,10 @@
     --font-action: "OpenSans", serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hamburguer{
     width: 2rem;
     height: 2rem;
