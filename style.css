@@ -270,8 +270,9 @@ header{
 }
 
 .conhecimento:nth-child(6){
-    grid-column: 12 / 14;
-    grid-row: 5 / -1;
+    grid-column: 11 / 14;
+    grid-row: 5 / -3;
+    margin-top: 1rem;
 }
 
 .sessao-header{
@@ -318,6 +319,7 @@ header{
     font-family: var(--font-primary);
     align-items: left;
     justify-content:left;
+    margin-top: .1rem;
 
 
 }
