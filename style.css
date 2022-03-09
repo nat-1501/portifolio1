@@ -343,12 +343,17 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
 }
 
 .card{
     width: 18rem;
     height: 25rem;
     position: relative;
+    margin-top: 7px;
+
 
 }
 
