@@ -343,12 +343,17 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
 }
 
 .card{
     width: 18rem;
     height: 25rem;
     position: relative;
+    margin-top: 7px;
+
 
 }
 
@@ -418,8 +423,9 @@ header{
     border-radius: 5px;
 }
 
+
 .card:hover .card-info{
-    bottom: 1.5rem;
+    bottom: 0.6rem;
     visibility: visible;
 
 }
@@ -584,10 +590,3 @@ footer{
 
 }
 
-@media screen and (max-width: 768px) {
-    sidebar{
-        width: 100%;
-        padding: 0;
-    }
-    
-}
