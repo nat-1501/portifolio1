@@ -229,15 +229,15 @@ header{
     background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1rem 3rem;
     border: none;
-    opacity: 0;
     border-radius: 5px;
     cursor: pointer;
+    opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
 
 }
 
-.banner button:hover{
-    opacity: 0.8;
+.banner button:hover {
+       color: #000; 
 }
 
 .conhecimentos{
@@ -245,6 +245,7 @@ header{
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
     row-gap: .5;
+    margin-bottom: 3rem;
 }
 
 .conhecimento:nth-child(1){
@@ -290,7 +291,7 @@ header{
     font-size: 3rem;
     color: #4b4b4b;
     border-bottom: solid 3px #6a3093;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     margin-top: 1cm;
 
 }
@@ -350,9 +351,9 @@ header{
 
 .card{
     width: 20rem;
-    height: 27rem;
+    height: 28rem;
     position: relative;
-    margin-top: 7px;
+    margin-top: 10px;
 
 
 }
@@ -375,7 +376,7 @@ header{
 .card-info{
     position: absolute;
     bottom: 0;
-    padding: 1rem;
+    padding: 1.5rem;
     opacity: 6;
     transition: all .3s;
   
@@ -387,7 +388,7 @@ header{
     font-size: 1.8rem;
     font-weight: 550;
     align-items: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 1rem;
     white-space: nowrap;
 }
 
@@ -540,6 +541,12 @@ header{
     letter-spacing: .1rem;
     border-radius: 5px;
 } 
+
+.btn-submit:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
 footer{
     width: 100%;
